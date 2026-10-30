@@ -1,4 +1,3 @@
-// بياناتك الشخصية - عدّلها من هنا فقط
 export const profile = {
   name: { ar: "محمود غانم", en: "Mahmoud Ghanem" },
   role: {
@@ -9,9 +8,9 @@ export const profile = {
     ar: "أطوّر تطبيقات ويب حديثة وسريعة، برؤية تهتم بتجربة المستخدم وبناء كود نظيف وقابل للتوسع.",
     en: "I develop fast, modern web applications, focusing on user experience and scalable code.",
   },
-  logo: "../../public/logo/logo.webp",
-  photo: "../../public/hero/my-photo.webp",
-  cv: "../../public/cv/my_cv.pdf",
+  logo: "/logo/logo.webp",
+  photo: "/hero/my-photo.webp",
+  cv: "/cv/my_cv.pdf",
   phone: "+963 968 139 188",
   email: "mahmoud.taha.ghanem@gmail.com",
   github: "https://github.com/mahmoud-t-ghanem",
