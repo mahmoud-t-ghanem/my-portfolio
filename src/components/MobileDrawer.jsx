@@ -54,7 +54,6 @@ export default function MobileDrawer({ open, onClose, active }) {
 
   const go = (id) => {
     onClose();
-    // ننتظر انتهاء الأنيميشن لأن المودال يقفل السكرول أثناء فتحه
     setTimeout(() => scrollToSection(id), SLIDE_MS + 50);
   };
 
@@ -65,8 +64,6 @@ export default function MobileDrawer({ open, onClose, active }) {
       closeAfterTransition
       slotProps={{ backdrop: { timeout: SLIDE_MS } }}
     >
-      {/* الدراور يلتصق بنهاية السطر (insetInlineEnd): يمين بالإنجليزي، يسار بالعربي،
-          وهي نفس جهة زر المنيو. والأنيميشن يدخل ويخرج من نفس الجهة. */}
       <Slide
         in={open}
         direction={dir === "rtl" ? "right" : "left"}
@@ -100,7 +97,7 @@ export default function MobileDrawer({ open, onClose, active }) {
           <Box
             sx={{ display: "flex", alignItems: "center", gap: 1.2, mb: 2.5 }}
           >
-            <Logo size={40} />
+            <Logo size={37} />
             <Typography variant="h6" fontWeight={800} sx={{ flex: 1 }}>
               {l(profile.name)}
             </Typography>
