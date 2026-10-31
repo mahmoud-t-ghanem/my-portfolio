@@ -97,7 +97,7 @@ export default function MobileDrawer({ open, onClose, active }) {
           <Box
             sx={{ display: "flex", alignItems: "center", gap: 1.2, mb: 2.5 }}
           >
-            <Logo size={37} />
+            <Logo size={34} />
             <Typography variant="h6" fontWeight={800} sx={{ flex: 1 }}>
               {l(profile.name)}
             </Typography>

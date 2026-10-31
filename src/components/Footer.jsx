@@ -53,7 +53,7 @@ export default function Footer() {
               alignItems="center"
               sx={{ mb: 1.5 }}
             >
-              <Logo size={34} />
+              <Logo size={33} />
               <Typography variant="h6" fontWeight={800}>
                 {l(profile.name)}
               </Typography>

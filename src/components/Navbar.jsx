@@ -76,7 +76,7 @@ export default function Navbar() {
                 cursor: "pointer",
               }}
             >
-              <Logo size={40} />
+              <Logo size={37} />
               <Typography
                 variant="h6"
                 sx={{ fontWeight: 800, whiteSpace: "nowrap" }}
